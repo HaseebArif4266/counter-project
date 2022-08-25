@@ -1,0 +1,41 @@
+body
+{
+    background-color: rgb(166, 126, 194);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.counter-card
+{
+    background-color: rgb(6, 141, 89);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+button
+{
+    padding: 12px 24px;
+    border-radius: 20px;
+    cursor:pointer ;
+    margin: 12px;
+    font-size: 20px;
+}
+
+button:hover
+{
+    background-color: rgb(0, 231, 243);
+    color: tomato;
+    transition: all 0.3s ease-in;
+}
